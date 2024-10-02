@@ -46,7 +46,7 @@ def generate_email(client, report_text, keyword_data, client_name, contact_name,
     ]
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="chatgpt-4o-latest",
         messages=messages
     )
 
